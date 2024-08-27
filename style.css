@@ -1,0 +1,302 @@
+*{
+
+margin: 0%;
+padding: 0%;
+
+
+}
+
+.heading1{
+
+       font-size: 40px; 
+       padding-top: 50px;     
+text-align: center;
+padding-bottom: 20px;
+
+
+}
+
+
+
+
+
+
+
+
+.sec-1-img{
+
+
+
+
+filter: brightness(80%);
+}
+
+
+
+
+.card-container{
+
+display: flex;
+}
+
+.card{
+
+    background-color:whitesmoke ;
+cursor: pointer;
+
+}
+
+
+.card-title{
+
+font-size: 15px;
+
+
+}
+
+
+
+
+
+
+
+
+
+.btn{
+font-size: .9rem;
+padding: .8rem ;
+background-color: white;
+width: 230px;
+cursor: pointer;
+border-radius: 30px;
+border: solid 1px ;
+margin-bottom: 20px;
+transition: transform .5s ease-in-out;
+
+}
+
+
+.btn:hover{
+
+
+    transform: scale(1.1)
+
+
+}
+
+
+
+
+
+
+.sec-3-img{
+
+
+filter: brightness(90%);
+
+}
+
+
+
+
+
+
+
+
+.sec-5-img{
+
+
+filter: brightness(95%);
+}
+
+
+
+
+
+
+.sec-7-img{
+
+
+filter: brightness(90%);
+}
+
+
+
+
+
+
+.sec-main-container{
+
+    background-image: url(https://ap.louisvuitton.com/images/is/image//content/dam/lv/editorial-content/New-Homepage/2024/central/collections/art_of_gifting/Art_of_Gifting_GG_ALWAYSON_WW_HP_Push_20240823_DI3.jpg?wid=2400);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    background-attachment: fixed;
+    }
+    
+    .sec-main-container::before{
+    
+    content: "";
+    background-color: rgb(0, 0, 0,0.544);
+    
+    position: absolute;
+    inset: 0;
+    
+    
+    }
+    .sec-main-container .content{
+    
+    z-index: 5;
+    
+    
+    
+    
+    
+    }
+    
+    
+
+
+
+
+
+
+@media screen and (max-width: 500px){
+
+
+
+
+.btn{
+
+width: 150px;
+
+padding: 0.5rem ;
+font-size: .8rem;
+
+    
+    }
+
+
+
+
+
+
+
+
+
+.heading1{
+
+font-size: 20px;
+
+
+}
+
+
+
+.text-reset{
+
+font-size: 12px;
+
+}
+
+
+.text-footer{
+
+
+font-size: 15px;
+
+}
+
+
+
+
+.footer-img{
+
+
+display: none;
+
+
+}
+
+.sec-main-txt1{
+
+font-size: 20px;
+
+
+
+
+}
+
+.sec-main-txt2{
+
+font-size:18px ;
+
+
+
+}
+
+.nav-link{
+
+
+margin-right: 5px;
+display: none;
+
+}
+.nav-link2{
+
+display: none;
+
+
+}
+
+.nav-link3{
+
+
+display: none;
+
+
+}
+
+.nav-link4{
+
+
+font-size: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-img{
+
+
+height: 10;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
